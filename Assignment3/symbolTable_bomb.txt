@@ -1,0 +1,171 @@
+
+bomb:     file format elf32-i386
+
+SYMBOL TABLE:
+08048154 l    d  .interp	00000000              .interp
+08048168 l    d  .note.ABI-tag	00000000              .note.ABI-tag
+08048188 l    d  .note.gnu.build-id	00000000              .note.gnu.build-id
+080481ac l    d  .gnu.hash	00000000              .gnu.hash
+080481dc l    d  .dynsym	00000000              .dynsym
+0804841c l    d  .dynstr	00000000              .dynstr
+080485be l    d  .gnu.version	00000000              .gnu.version
+08048608 l    d  .gnu.version_r	00000000              .gnu.version_r
+08048678 l    d  .rel.dyn	00000000              .rel.dyn
+08048698 l    d  .rel.plt	00000000              .rel.plt
+08048790 l    d  .init	00000000              .init
+080487c0 l    d  .plt	00000000              .plt
+080489c0 l    d  .text	00000000              .text
+0804a354 l    d  .fini	00000000              .fini
+0804a368 l    d  .rodata	00000000              .rodata
+0804aca8 l    d  .eh_frame_hdr	00000000              .eh_frame_hdr
+0804adc4 l    d  .eh_frame	00000000              .eh_frame
+0804cf08 l    d  .init_array	00000000              .init_array
+0804cf0c l    d  .fini_array	00000000              .fini_array
+0804cf10 l    d  .jcr	00000000              .jcr
+0804cf14 l    d  .dynamic	00000000              .dynamic
+0804cffc l    d  .got	00000000              .got
+0804d000 l    d  .got.plt	00000000              .got.plt
+0804d0a0 l    d  .data	00000000              .data
+0804d7e0 l    d  .bss	00000000              .bss
+00000000 l    d  .comment	00000000              .comment
+00000000 l    d  .debug_aranges	00000000              .debug_aranges
+00000000 l    d  .debug_info	00000000              .debug_info
+00000000 l    d  .debug_abbrev	00000000              .debug_abbrev
+00000000 l    d  .debug_line	00000000              .debug_line
+00000000 l    d  .debug_str	00000000              .debug_str
+00000000 l    d  .debug_loc	00000000              .debug_loc
+00000000 l    df *ABS*	00000000              crtstuff.c
+0804cf10 l     O .jcr	00000000              __JCR_LIST__
+08048a00 l     F .text	00000000              deregister_tm_clones
+08048a30 l     F .text	00000000              register_tm_clones
+08048a70 l     F .text	00000000              __do_global_dtors_aux
+0804d804 l     O .bss	00000001              completed.6591
+0804cf0c l     O .fini_array	00000000              __do_global_dtors_aux_fini_array_entry
+08048a90 l     F .text	00000000              frame_dummy
+0804cf08 l     O .init_array	00000000              __frame_dummy_init_array_entry
+00000000 l    df *ABS*	00000000              bomb.c
+00000000 l    df *ABS*	00000000              phases.c
+0804a57c l     O .rodata	00000010              array.3161
+00000000 l    df *ABS*	00000000              support.c
+08049140 l     F .text	00000060              sig_handler
+00000000 l    df *ABS*	00000000              driverlib.c
+080496e4 l     F .text	0000010f              rio_readlineb
+00000000 l    df *ABS*	00000000              crtstuff.c
+0804b290 l     O .eh_frame	00000000              __FRAME_END__
+0804cf10 l     O .jcr	00000000              __JCR_END__
+00000000 l    df *ABS*	00000000              
+0804cf0c l       .init_array	00000000              __init_array_end
+0804cf14 l     O .dynamic	00000000              _DYNAMIC
+0804cf08 l       .init_array	00000000              __init_array_start
+0804d000 l     O .got.plt	00000000              _GLOBAL_OFFSET_TABLE_
+0804a350 g     F .text	00000002              __libc_csu_fini
+08049391 g     F .text	00000046              skip
+0804966e g     F .text	00000034              phase_defused
+0804d0fc g     O .data	0000000c              n31
+00000000       F *UND*	00000000              read@@GLIBC_2.0
+00000000  w      *UND*	00000000              _ITM_deregisterTMCloneTable
+080489f0 g     F .text	00000004              .hidden __x86.get_pc_thunk.bx
+0804d0a0  w      .data	00000000              data_start
+0804d820 g     O .bss	00000640              input_strings
+00000000       F *UND*	00000000              fflush@@GLIBC_2.0
+0804d0f0 g     O .data	0000000c              n33
+0804d7e0 g     O .bss	00000004              stderr@@GLIBC_2.0
+00000000       F *UND*	00000000              fgets@@GLIBC_2.0
+0804d7e0 g       .data	00000000              _edata
+00000000       F *UND*	00000000              signal@@GLIBC_2.0
+00000000       F *UND*	00000000              sleep@@GLIBC_2.0
+0804d138 g     O .data	0000000c              n44
+0804d15c g     O .data	0000000c              n46
+0804d144 g     O .data	0000000c              n42
+0804d168 g     O .data	0000000c              n48
+0804a354 g     F .fini	00000000              _fini
+00000000       F *UND*	00000000              alarm@@GLIBC_2.0
+00000000       F *UND*	00000000              __stack_chk_fail@@GLIBC_2.4
+0804d808 g     O .bss	00000004              num_input_strings
+08048dca g     F .text	00000094              phase_5
+08049353 g     F .text	00000002              initialize_bomb_solve
+08048f24 g     F .text	00000088              phase_7
+08049355 g     F .text	0000003c              blank_line
+080490ea g     F .text	00000050              phase_9
+080497f3 g     F .text	00000814              submitr
+08048ce8 g     F .text	0000008b              phase_3
+08048c80 g     F .text	00000044              phase_1
+080491a0 g     F .text	0000002b              invalid_phase
+0804a03e g     F .text	0000020e              init_driver
+00000000       F *UND*	00000000              strcpy@@GLIBC_2.0
+0804d18c g     O .data	0000000c              node3
+080494e5 g     F .text	0000003f              explode_bomb
+00000000       F *UND*	00000000              gethostname@@GLIBC_2.0
+0804d174 g     O .data	0000000c              node1
+00000000       F *UND*	00000000              getenv@@GLIBC_2.0
+00000000       F *UND*	00000000              malloc@@GLIBC_2.0
+0804d0a0 g       .data	00000000              __data_start
+00000000       F *UND*	00000000              puts@@GLIBC_2.0
+0804d1a4 g     O .data	0000000c              node5
+00000000       F *UND*	00000000              __memmove_chk@@GLIBC_2.3.4
+00000000       F *UND*	00000000              __memcpy_chk@@GLIBC_2.3.4
+00000000  w      *UND*	00000000              __gmon_start__
+00000000       F *UND*	00000000              exit@@GLIBC_2.0
+0804d0a4 g     O .data	00000000              .hidden __dso_handle
+08049099 g     F .text	00000051              fun9
+0804a36c g     O .rodata	00000004              _IO_stdin_used
+0804d0d8 g     O .data	0000000c              n22
+0804d5e0 g     O .data	00000200              host_table
+0804d0c0 g     O .data	0000000c              n1
+00000000       F *UND*	00000000              __libc_start_main@@GLIBC_2.0
+00000000       F *UND*	00000000              write@@GLIBC_2.0
+080491cb g     F .text	0000001f              string_length
+00000000       F *UND*	00000000              strcasecmp@@GLIBC_2.0
+0804a2e0 g     F .text	00000061              __libc_csu_init
+0804d7e4 g     O .bss	00000004              stdin@@GLIBC_2.0
+00000000       F *UND*	00000000              __isoc99_sscanf@@GLIBC_2.7
+0804d108 g     O .data	0000000c              n34
+00000000       F *UND*	00000000              fopen@@GLIBC_2.1
+08048e5e g     F .text	0000005d              func6
+0804d0e4 g     O .data	0000000c              n32
+0804deb0 g       .bss	00000000              _end
+00000000       F *UND*	00000000              __errno_location@@GLIBC_2.0
+080489c0 g     F .text	00000000              _start
+0804a368 g     O .rodata	00000004              _fp_hw
+0804d80c g     O .bss	00000004              infile
+080496b0 g     F .text	00000034              sigalrm_handler
+0804a007 g     F .text	00000037              init_timeout
+0804d800 g     O .bss	00000004              stdout@@GLIBC_2.0
+0804d7e0 g       .bss	00000000              __bss_start
+0804d1c0 g     O .data	00000400              userid
+08048abd g     F .text	000001be              main
+00000000       F *UND*	00000000              __printf_chk@@GLIBC_2.3.4
+0804d12c g     O .data	0000000c              n47
+0804d150 g     O .data	0000000c              n43
+0804d120 g     O .data	0000000c              n41
+08049574 g     F .text	000000fa              read_line
+0804d114 g     O .data	0000000c              n45
+080491ea g     F .text	0000006c              strings_not_equal
+08048d73 g     F .text	00000057              phase_4
+08048fac g     F .text	000000ed              phase_8
+08048ebb g     F .text	00000069              phase_6
+0804de60 g     O .bss	00000050              scratch
+00000000  w      *UND*	00000000              _Jv_RegisterClasses
+0804a24c g     F .text	00000091              driver_post
+080493d7 g     F .text	0000010e              send_msg
+08048cc4 g     F .text	00000024              phase_2
+0804d5c0 g     O .data	00000004              bomb_id
+00000000       F *UND*	00000000              socket@@GLIBC_2.0
+0804d7e0 g     O .data	00000000              .hidden __TMC_END__
+00000000       F *UND*	00000000              __fprintf_chk@@GLIBC_2.3.4
+00000000  w      *UND*	00000000              _ITM_registerTMCloneTable
+0804d180 g     O .data	0000000c              node2
+0804d198 g     O .data	0000000c              node4
+00000000       F *UND*	00000000              gethostbyname@@GLIBC_2.0
+00000000       F *UND*	00000000              strtol@@GLIBC_2.0
+0804d1b0 g     O .data	0000000c              node6
+00000000       F *UND*	00000000              connect@@GLIBC_2.0
+08048790 g     F .init	00000000              _init
+00000000       F *UND*	00000000              close@@GLIBC_2.0
+08049524 g     F .text	00000050              read_six_numbers
+0804d0cc g     O .data	0000000c              n21
+08049256 g     F .text	000000fd              initialize_bomb
+00000000       F *UND*	00000000              __ctype_b_loc@@GLIBC_2.3
+00000000       F *UND*	00000000              __sprintf_chk@@GLIBC_2.3.4
+
+

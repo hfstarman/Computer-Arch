@@ -1,0 +1,13 @@
+b *0x08049116
+b *0x08049130
+b phase_9
+#b *0x08049099
+b *0x080490e0
+b *0x08049139
+run defuser.txt
+
+# BOOM 1
+# BOOM 2
+# phase start
+# fun9 start
+# END (5)
