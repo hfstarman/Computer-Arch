@@ -1,0 +1,10 @@
+cache A
+Memory reads: 1791155
+Memory writes: 611377
+Cache hits: 4026339
+Cache misses: 1791155
+cache B
+Memory reads: 5216463
+Memory writes: 611377
+Cache hits: 601031
+Cache misses: 5216463
